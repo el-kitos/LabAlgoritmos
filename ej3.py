@@ -1,0 +1,5 @@
+nombre = input("Ingrese su nombre: ")
+nombreEnBin = nombre.encode("utf-8")
+nombreConTabs = nombre.expandtabs(tabsize=16)
+print("El nombre en binario es:", nombreEnBin)
+print("El nombre con tabs es:", nombreConTabs)
