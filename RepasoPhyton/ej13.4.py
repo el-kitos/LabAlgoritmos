@@ -1,4 +1,4 @@
-edad = 67
+edad = 1
 
 if edad < 2:
     print("Eres un bebé")
@@ -10,3 +10,5 @@ elif edad < 20:
     print("Eres un adolescente")
 elif edad < 65:
     print("Eres un adulto")
+elif edad > 65:
+    print("Sos un viejardo 67")
