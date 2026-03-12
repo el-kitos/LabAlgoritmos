@@ -9,4 +9,4 @@ for persona in lenguajes_favoritos.keys():
     if persona in personas:
         print(f"Gracias por responder la encuesta {persona}")
     else:
-        print(f"Te invito a participar{persona}")
+        print(f"Te invito a participar {persona}")
