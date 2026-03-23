@@ -11,4 +11,8 @@ class Usuario:
     def saludar(self):
         print(f"hola {self.nombre}")
     
-    juanjo = Usuario("Juanjo", "Alfonso","juanjoalfonso@gmail", "8")
+
+juanjo = Usuario("Juanjo", "Alfonso","juanjoalfonso@gmail", "8")
+
+juanjo.describir_usuario()
+juanjo.saludar()
