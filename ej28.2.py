@@ -25,6 +25,9 @@ juanjo.describir_usuario()
 juanjo.saludar()
 
 Marcos = Usuario("Marcos","Bertoglio", "Marcos@gmail.com", "16")
+Marcos.describir_usuario()
+Marcos.saludar()
+
 Marcos.incrementar_intentos_login()
 Marcos.incrementar_intentos_login()
 Marcos.incrementar_intentos_login()
