@@ -12,24 +12,13 @@ class Usuario:
         print(f"hola {self.nombre}")
 
 
-class Administrador(Usuario):
-    def __init__(self, nombre, apellido, email, edad):
-        super().__init__(nombre, apellido, email, edad)
+class Privilegios:
+    def __init__(self):
         self.privilegios = [
             "puede agregar publicaciones",
             "puede eliminar publicaciones",
             "puede bloquear usuarios"
         ]
-
-
-            
-class Privilegios:
-    def __init__(self):
-        self.privilegios = [
-        "puede agregar publicaciones",
-        "puede eliminar publicaciones",
-        "puede bloquear usuarios"
-    ]
     
     def mostrar_privilegios(self):
         print("Privilegios del administrador:")
@@ -37,9 +26,16 @@ class Privilegios:
             print("-", privilegio)
 
 
-admin = Administrador("Juanjo", "Alfonso", "juanjoalfonso@gmail", 8)
+class Administrador(Usuario):
+    def __init__(self, nombre, apellido, email, edad):
+        super().__init__(nombre, apellido, email, edad)
+        self.privilegios = Privilegios()
 
+
+
+admin = Administrador("Juanjo", "Alfonso", "juanjoalfonso@gmail", 8)
 
 admin.describir_usuario()
 admin.saludar()
-Privilegios.mostrar_privilegios()
+
+admin.privilegios.mostrar_privilegios()
