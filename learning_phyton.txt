@@ -1,0 +1,10 @@
+En Python podés crear variables para guardar información como números, textos o listas.
+En Python podés usar condicionales como if, elif y else para tomar decisiones en tu programa.
+En Python podés usar bucles como for y while para repetir acciones varias veces.
+En Python podés crear funciones para organizar mejor tu código y reutilizarlo.
+En Python podés trabajar con listas, tuplas y diccionarios para almacenar datos.
+En Python podés crear clases y objetos para programar usando programación orientada a objetos.
+En Python podés leer y escribir archivos usando herramientas como pathlib.
+En Python podés importar módulos para usar funciones ya hechas y facilitar tu trabajo.
+En Python podés generar números aleatorios usando la librería random.
+En Python podés manejar errores y mejorar tus programas para que sean más seguros.
